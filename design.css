@@ -1,17 +1,31 @@
-body{
+#background{
     background-image: url("https://www.travel-palawan.com/wp-content/uploads/2023/12/Cauayan-Island-Resort-sunset-villa.jpeg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 250px 150px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-shadow: 0 8px 20px rgba(0, 0, 0, 1);
 }
 
 #topBar{
     display: flex;
     align-items: center;          
     justify-content: space-between;
-    padding: 3px 100px;
+    padding: 3px 150px;
     flex-wrap: wrap; 
     transition: background-color 0.3s ease;
-    background-color: hsla(69, 100%, 86%, 0.39);
+    background-color: hsla(0, 0%, 100%, 0.27);
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -20,6 +34,7 @@ body{
     width: 100px;              
     height: 70px;
     object-fit: cover;
+    opacity: 0.5;
 }
 
 .nav-buttons{
@@ -41,6 +56,7 @@ body{
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 131, 86);
+    opacity: 0.5;
 }
 
 #container{
@@ -57,7 +73,7 @@ body{
     margin: 20px;
     width: 1000px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-
+    
 }
 
 .carousel img{
@@ -67,22 +83,27 @@ body{
 }
 
 #messagecont{
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(250, 235, 215, 0.74);
-    margin: 20px;
-    border-radius: 30px;
+}
+
+h3{
+    padding: 0px 150px;
+    font-weight: 800;
 }
 
 #message {
-    text-align: center;
+    /* text-align: center; */
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 300px;
-
+    margin: 10px 150px;
+    padding-top: 20px;
 }
 
+#padding{
+    padding: 30px;
+}
 
 
 
