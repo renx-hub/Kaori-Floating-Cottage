@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(192, 255, 255);
+    background-image: url("https://www.travel-palawan.com/wp-content/uploads/2023/12/Cauayan-Island-Resort-sunset-villa.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #topBar{
@@ -9,7 +11,7 @@ body{
     padding: 3px 100px;
     flex-wrap: wrap; 
     transition: background-color 0.3s ease;
-    background-color: hsla(69, 100%, 86%, 0.56);
+    background-color: hsla(69, 100%, 86%, 0.39);
 }
 
 
@@ -53,8 +55,8 @@ body{
     align-items: center;
     justify-content: center;
     margin: 20px;
-    width: 900px;
-
+    width: 1000px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -62,6 +64,23 @@ body{
     width: 900px;              
     height: 400px;
     object-fit: cover;    
+}
+
+#messagecont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.74);
+    margin: 20px;
+    border-radius: 30px;
+}
+
+#message {
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 300px;
+
 }
 
 
