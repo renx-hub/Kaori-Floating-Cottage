@@ -15,4 +15,16 @@ $(document).ready(function(){
         $("#name").css("opacity", "0.5")
     });
     
+    $("#button1").hover(function(){
+        $(this).css("color", "rgba(192, 102, 0, 1)")
+    });
+
+    $(".social-icon").mouseenter(function(){
+        $(this).css("background-color", "rgba(192, 102, 0, 1)")
+    });
+
+    $(".social-icon").mouseleave(function(){
+        $(this).css("background-color", "#505050")
+    });
+
 });
