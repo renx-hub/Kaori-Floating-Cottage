@@ -1,19 +1,26 @@
+body{
+    background-color: aqua;
+}
+
 #background{
     background-image: url("https://www.travel-palawan.com/wp-content/uploads/2023/12/Cauayan-Island-Resort-sunset-villa.jpeg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(250, 235, 215, 0.74);
+    
 }
 
 
 h1{
     display: flex;
     justify-content: center;
-    padding: 250px 150px;
+    padding: 300px 150px;
     color: aliceblue;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     text-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+    
 }
 
 #topBar{
@@ -26,6 +33,7 @@ h1{
     background-color: hsla(0, 0%, 100%, 0.27);
     position: fixed;
     width: 100%;
+    z-index: 10000;
 }
 
 
@@ -66,6 +74,8 @@ h1{
     margin: 20px;
 }
 
+
+
 #carousel{
     display: flex;
     align-items: center;
@@ -73,19 +83,18 @@ h1{
     margin: 20px;
     width: 1000px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-    
 }
 
 .carousel img{
     width: 900px;              
-    height: 400px;
+    height: 500px;
     object-fit: cover;    
 }
 
 #messagecont{
     align-items: center;
     justify-content: center;
-    background-color: rgba(250, 235, 215, 0.74);
+    background-color: rgba(250, 235, 215, 0.904);
 }
 
 h3{
@@ -103,6 +112,95 @@ h3{
 
 #padding{
     padding: 30px;
+}
+
+#background2 {
+    background-image: url("https://hdqwalls.com/wallpapers/nature-beach-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(250, 235, 215, 0.74);
+}
+
+#containerlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#imagelogo{
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    object-fit: cover;
+    height: 300px;
+    width: 300x;
+    border-radius: 10px;
+}
+
+
+#cont {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+
+.social-icon {
+    background-color: rgb(0, 0, 0);
+    color: #1877f2;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5px 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+#cont2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h4 {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#line {
+    display: flex;
+    justify-self: center;
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#button1 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 250px;
+}
+
+.btn-active {
+    font-size: 15;
+    font-weight: 700;
+}
+
+#owner {
+    font-weight: 700;
+    padding-top: 15px;
 }
 
 
